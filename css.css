@@ -1,0 +1,142 @@
+/* stylesheet */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+    flex: 1;
+    border:brown;
+    border-style: solid;
+    margin-top: 0px;
+    
+
+}
+
+.headerleft {
+        display: flex;
+        border:brown;
+        border-style: solid;
+        height: 30px;
+
+}
+    
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    border:brown;
+    border-style: solid;
+}
+
+.belowheader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:brown;
+    border-style: solid;
+    
+}
+
+.belowleft {
+    display: flex;
+    border:brown;
+    border-style: solid;
+    flex-direction: column;
+
+    width: 320px;
+    height: 320px;
+    
+}
+
+.belowright {
+
+    display: flex;
+    border:brown;
+    border-style: solid;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    flex-direction: column;
+}
+
+.mainbody {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:brown;
+    border-style: solid;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+
+}
+
+.image {
+
+    border:#3882f6;
+    border-style: solid;
+    border-radius: 25px;
+    width: 120px;
+    height: 120px;
+
+}
+
+.image1 {background-color: chartreuse;}
+.image2 {background-color: chocolate;}
+.image3 {background-color: cornflowerblue;}
+.image4 {background-color: crimson;}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    align-items: center;
+    border:brown;
+    border-style: solid;
+
+}
+
+.thorquote {
+    width: 400px;
+}
+
+.thorthx {
+    width: 200px;
+    
+    
+}
+
+.cta {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border:brown;
+    border-style: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border:brown;
+    border-style: solid;
+}
