@@ -133,6 +133,8 @@ h2 {
     border-radius: 25px;
     width: 180px;
     height: 180px;
+    text-align: center;
+    font-size: 18px;
 
 }
 
@@ -159,19 +161,23 @@ h2 {
     border:brown;
     border-style: solid;
     background: #E5E7EB;
-    padding: 75px;
+    padding: 3rem;
 
     
 }
 
 .thorquote {
-    width: 400px;
+    width: 900px;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    display: flex;
 }
 
 .thorthx {
+
+    display: flex;
+    padding-top: 11rem;
 
     
     
