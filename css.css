@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin: 0px;
     
    
 }
@@ -13,8 +14,8 @@ body {
     justify-content: space-around;
     align-items:baseline;
     flex: 1;
-    border:brown;
-    border-style: solid;
+    /* border:brown;
+    border-style: solid; */
     margin-top: 0px;
     background-color: #1F2937;
     font-size: 24px;
@@ -23,8 +24,8 @@ body {
 
 .headerleft {
         display: flex;
-        border:brown;
-        border-style: solid;
+        /* border:brown;
+        border-style: solid; */
         height: 30px;
 }
     
@@ -44,21 +45,21 @@ a {
 ul {
     display: flex;
 
-    border:brown;
-    border-style: solid;
+    /* border:brown;
+    border-style: solid; */
 
 }
 
 button {
-    border-color: #F9FAF8;
+    border-color: #3882f6;
     border-style: solid;
     border-radius: 5px;
     background-color: #3882f6;
     color: #F9FAF8;
     font-weight: bold;
     font-size: 16px;
-    width: 100px;
-    height: 50px;
+    width: 145px;
+    height: 40px;
 }
 
 
@@ -66,28 +67,30 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border:brown;
-    border-style: solid;
+    /* border:brown;
+    border-style: solid; */
     background-color: #1F2937;
     padding: 80px;
     
 }
 
 .belowleft {
-    border:brown;
-    border-style: solid;
+    /* border:brown;
+    border-style: solid; */
     width: 480px;
     height: 330px;
     
 }
 
 .belowright {
-    border:brown;
-    border-style: solid;
-    text-align: center;
+    /* border:brown;
+    border-style: solid; */
     width: 600px;
     height: 250px;
     background-color: #b7bbc4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -105,13 +108,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    border:brown;
-    border-style: solid;
+    /* border:brown;
+    border-style: solid; */
     padding: 5rem;
     flex-direction: column;
-
-
-
 }
 
 h2 {
@@ -158,10 +158,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border:brown;
-    border-style: solid;
+    /* border:brown;
+    border-style: solid; */
     background: #E5E7EB;
-    padding: 3rem;
+    padding: 5rem;
 
     
 }
@@ -179,20 +179,16 @@ h2 {
     display: flex;
     padding-top: 11rem;
 
-    
-    
 }
 
 .cta {
     display: flex;
     justify-content: center;
-    border:brown;
-    border-style: solid;
+    /* border:brown;
+    border-style: solid; */
     padding: 6rem;
 
-
 }
-
 
 .cta1 {
     background-color: #3882f6;
@@ -211,17 +207,16 @@ h2 {
     margin-left: 16rem;
     width: 145px;
     height: 40px;
+    border-color: #F9FAF8;
 }
-
-
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
-    border:brown;
-    border-style: solid;
+    /* border:brown;
+    border-style: solid; */
     background-color: #1F2937;
     padding: 25px;
     color: #E5E7EB;
