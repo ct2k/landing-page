@@ -4,7 +4,12 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    margin: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    font-family: 'Roboto', sans-serif;
+    background: #1f2124;
     
    
 }
@@ -12,14 +17,15 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
-    align-items:baseline;
-    flex: 1;
+    align-items: center;
+    /* flex: 1; */
     /* border:brown;
     border-style: solid; */
-    margin-top: 0px;
+    /* margin-top: 0px; */
     background-color: #1F2937;
     font-size: 24px;
     color: #F9FAF8;
+    gap: 4rem;
 }
 
 .headerleft {
@@ -27,6 +33,8 @@ body {
         /* border:brown;
         border-style: solid; */
         height: 30px;
+        font-weight: 900;
+
 }
     
 li {
@@ -65,12 +73,12 @@ button {
 
 .belowheader {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     /* border:brown;
     border-style: solid; */
     background-color: #1F2937;
-    padding: 80px;
+    padding: 5rem;
     
 }
 
@@ -79,15 +87,16 @@ button {
     border-style: solid; */
     width: 480px;
     height: 330px;
+    padding-right: 2rem;
     
 }
 
 .belowright {
     /* border:brown;
     border-style: solid; */
-    width: 600px;
+    width: 500px;
     height: 250px;
-    background-color: #b7bbc4;
+    background-color: #737385;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,8 +119,9 @@ p {
     align-items: center;
     /* border:brown;
     border-style: solid; */
-    padding: 5rem;
+    padding: 3rem;
     flex-direction: column;
+    background: white;
 }
 
 h2 {
@@ -147,10 +157,11 @@ h2 {
     display: flex;
     padding-top: 1rem;
     width: 800px;
-    gap: 2.5rem;
+    gap: 4rem;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 3rem;
     
 }
 
@@ -162,23 +173,25 @@ h2 {
     border-style: solid; */
     background: #E5E7EB;
     padding: 5rem;
-
-    
 }
 
 .thorquote {
     width: 900px;
     font-size: 36px;
     font-style: italic;
+    font-weight: 100;
     color: #1F2937;
     display: flex;
+    margin-left: 16rem;
+    
 }
 
 .thorthx {
-
+    font-weight: 900;
+    font-size: 24px;
     display: flex;
-    padding-top: 11rem;
-
+    padding-top: 15rem;
+    width: 300px;
 }
 
 .cta {
@@ -187,6 +200,7 @@ h2 {
     /* border:brown;
     border-style: solid; */
     padding: 6rem;
+    background: white;
 
 }
 
@@ -200,7 +214,6 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .butt {
@@ -214,10 +227,9 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
     /* border:brown;
     border-style: solid; */
     background-color: #1F2937;
-    padding: 25px;
+    padding: 2rem;
     color: #E5E7EB;
 }
