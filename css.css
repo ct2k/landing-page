@@ -188,7 +188,8 @@ h2 {
     justify-content: center;
     border:brown;
     border-style: solid;
-    padding: 50px;
+    padding: 6rem;
+
 
 }
 
@@ -197,11 +198,21 @@ h2 {
     background-color: #3882f6;
     color: #F9FAF8;
     border-style: solid;
-    border-radius: 5px;
-    padding: 50px;
-
+    border-radius: 15px;
+    padding: 2rem;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
+
+.butt {
+    margin-left: 16rem;
+    width: 145px;
+    height: 40px;
+}
+
 
 
 .footer {
