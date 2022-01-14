@@ -103,14 +103,27 @@ p {
 
 .mainbody {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     border:brown;
     border-style: solid;
-    padding: 175px;
+    padding: 5rem;
+    flex-direction: column;
 
 
 
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.imageflex {
+    display: flex;
+    padding-top: 1rem;
+    gap: 2rem;
 }
 
 .image {
@@ -118,8 +131,8 @@ p {
     border:#3882f6;
     border-style: solid;
     border-radius: 25px;
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
 
 }
 
@@ -127,6 +140,17 @@ p {
 .image2 {background-color: chocolate;}
 .image3 {background-color: cornflowerblue;}
 .image4 {background-color: crimson;}
+
+.textflex {
+    display: flex;
+    padding-top: 1rem;
+    width: 800px;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
 
 .quote {
     display: flex;
